@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+body{
+    background-image: url(img/pexels-francesco-ungaro-3814108.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    height: 490px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: 20px auto;
+    gap: 13px;
+
+}
+.juego{
+    padding: 3px 10px; 
+   border: rgb(236, 233, 248) solid;  
+   border-radius: 30px;
+    font-size: 50px;
+   color: #ffffff;
+   align-content: center;
+   text-align: center;
+}
+#reiniciar{
+background-image: url(img/pexels-francesco-ungaro-3814108.jpg);
+    margin-top: -40px;
+    width: 250px;
+    height: 38px;
+    color: rgb(244, 245, 245);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left:75%;
+    font-size: 1em;
+    font-weight: 400; 
+
+}
+#ganador{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    font: fallback;
+    font-size: 20px;
+
+}
+#victoriasJugador{
+    margin-left: 200px;
+    color: white;
+    font-size: 50px;
+    margin-top: -100px;
+}
+#victoriasCompu{
+    margin-left: 100px;
+    margin-top: -58px;
+    color: white;
+    font-size: 50px;
+}
